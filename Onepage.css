@@ -27,7 +27,7 @@ body {
 }
 /* Center website */
 .main {
-  max-width: 2000px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -49,6 +49,7 @@ h2{
     color: #1e9f67;
     
 }
+
 }
 /* Add padding BETWEEN each column (if you want) */
 .row > .column {

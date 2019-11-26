@@ -34,6 +34,7 @@ body {
 
 #topbillede1{
     height: 250px;
+    
 }
 #topbillede{
     height: 250px;
@@ -48,11 +49,11 @@ h1 {
 
 h2{
     font-size: 45px;
-    color: #1e9f67;
+    color: #16987f;
     
 }
 img{
-    height: 350px;
+    height: 250px;
 }
 }
 /* Add padding BETWEEN each column (if you want) */
@@ -82,7 +83,7 @@ float: left;
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: #ffffff;
   padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -101,7 +102,7 @@ h1 {
   font-size: 35px;
   word-break: break-all;
     text-align: center;
-    color: #1e9f67;
+    color: #16987f;
 }
 
 
@@ -110,10 +111,10 @@ h2{
     color: #DE93A7;
     }
     #topbillede{
-        height: 100px;
+        height: 150px;
     }
     #topbillede1{
-        height: 100px;
+        height: 150px;
     }
 body {
   background-color: #E0C280;
@@ -139,7 +140,7 @@ h1 {
         height: 100px;
     }
 body {
-  background-color: #1e9f67;
+  background-color: #16987f;
    
   padding: 10px;
   font-family: Arial;

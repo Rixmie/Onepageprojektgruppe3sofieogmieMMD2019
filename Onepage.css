@@ -5,12 +5,14 @@
 body {
   background-color: white;
   padding: 10px;
-  font-family: Arial;
+  font-family: input-serif, serif;
+font-weight: 100;
+font-style: normal;
 }
 
 #overskriftogbilleder{
     display: grid;
-    grid-template-columns: 1fr, 3fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
 }
 #topbillede1{
     grid-column-start: 1;
@@ -18,12 +20,18 @@ body {
 }
 #overskrift{
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 2;
 }
 #topbillede{
-    grid-column-start: 5;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 3;
 }
+img{
+    width: 100%;
+    
+}
+#mel{
+    height: 405px;
 }
 /* Center website */
 .main {
@@ -32,33 +40,44 @@ body {
 }
 
 #topbillede1{
-    height: 250px;
-    
+    height: 100%;
+    width: 80%;
+    align-items: center;
 }
 #topbillede{
-    height: 250px;
+    height: 100%;
+    width: 80%;
+    align-items: center;
 }
 
-h1 {
-  font-size: 50px;
+#overskrift{
+    font-size: 40px;
   word-break: break-all;
     text-align: center;
     color: #DE93A7;
+   
+font-family: input-serif-compressed, serif;
+font-weight: 700;
+font-style: normal;
+    align-items: center;
 }
 
 h2{
-    font-size: 45px;
+    font-size: 35px;
     color: #16987f;
+<<<<<<< HEAD
   
   
        
 
     
     
+=======
+    font-family: input-serif, serif;
+font-style: normal;
+font-weight: 100;
+
     
-}
-img{
-    height: 250px;
 }
 }
 /* Add padding BETWEEN each column (if you want) */
@@ -69,30 +88,7 @@ padding-bottom: 0px;
     padding-right: 0px;
 }
 
-/* Create four equal columns that floats next to each other */
-.column {
-float: left;
-    width: 50%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: #ffffff;
-  padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -102,30 +98,36 @@ float: left;
   }
     img{
         width: 100%;
-        height: 100%;
+        
     }
-h1 {
-  font-size: 35px;
+#overskrift{
+    font-size: 25px;
   word-break: break-all;
     text-align: center;
     color: #16987f;
-}
-
-
+    font-family: input-serif-compressed, serif;
+font-weight: 700;
+font-style: normal;
+    }
+    #mel{
+        height: 100%;
+    }
 h2{
     font-size: 30px;
     color: #DE93A7;
+    
     }
     #topbillede{
-        height: 150px;
+        height: 100%;
+        width: 80%;
     }
     #topbillede1{
-        height: 150px;
+        height: 100%;
+         width: 80%;
     }
 body {
   background-color: #E0C280;
   padding: 10px;
-  font-family: Arial;
 }
     
     @media screen and (max-width: 400px) {
@@ -133,39 +135,50 @@ body {
     width: 100%;
   }
    
-h1 {
-  font-size: 25px;
+#overskrift{
+    font-size: 14px;
   word-break: break-all;
     text-align: center;
     color: #E0C280;
+   font-family: input-serif-compressed, serif;
+font-weight: 700;
+font-style: normal;
 }
     #topbillede{
-        height: 100px;
+        height: 150px;
     }
     #topbillede1{
-        height: 100px;
+        height: 150px;
     }
+
+        #mel{
+            height: 100%;
+        }
 body {
   background-color: #16987f;
-   
-  padding: 10px;
-  font-family: Arial;
 }
         img{
-          width: 100%;
-           
-            
+          width: 100%;   
         }
         h2{
             font-size: 20px;
             color: #DE94A6;
+            font-family: input-serif, serif;
+font-style: normal;
+font-weight: 100;
         }
 
         h3{
             font-size: 15px;
+            font-family: input-serif, serif;
+font-style: normal;
+font-weight: 100;
         }
         p{
             font-size: 15px;
+            font-family: input-serif, serif;
+font-style: normal;
+font-weight: 100;
         }
        
     }

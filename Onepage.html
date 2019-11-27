@@ -16,12 +16,29 @@
            <h1 id="overskrift">Opskrifter fra <br>Skælskør <br>Frugtplantage</h1>
         <img id="topbillede" src="skaeskoermarmeladetop.gif">
         </section>
+    
 <div class="main">
 <hr>
 <h2>Æbleskiver</h2>
 <p>Mangler du også opskriften til den perfekte vinterhygge aften eller eftermiddag? <br>bare rolig Skælskør Frugtplantage hjælper dig.</p>
 
 <!-- billeder og opskrift -->
+    
+  /* Slide Left */
+ 
+@-webkit-keyframes 'slideLeft' {
+    0% { left: -500px; }
+    100% { left: 0; }
+}
+ 
+ul.s-slides li.slideLeft:target {
+    z-index: 100;
+ 
+    -webkit-animation-name: slideLeft;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+
+    
   </div>
     <h3 id="I">Ingredienser</h3>
 <div class="row" >
@@ -179,7 +196,8 @@
       <p>vores marmelade findes i flere varianter og endda ØKOLOGISKE! :O</p>
     </div> 
     </div>
-    
+        
+     
 <!-- slutning på siden -->
 </div>   
 </body>

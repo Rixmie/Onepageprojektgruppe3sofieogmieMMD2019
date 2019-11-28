@@ -1,0 +1,330 @@
+
+/* mobile*/
+@media screen and(min-width: 400px){
+body{
+    margin: 0;
+}
+}
+img{
+    height: 100em;
+    margin: 0em;
+    
+}
+.box{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+.box::-webkit-scrollbar{
+    display: none;
+}
+.card-a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 50em;
+    background-color: #16987f;
+}
+h2{
+font-size: 4em;
+font-family: input-serif-compressed, serif;
+font-weight: 700;
+font-style: normal;
+    color: greenyellow;
+}
+.card-b{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 50em;
+    background-color: #DE94A6;
+    
+}
+.card-c{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 50em;
+    background-color: #16987f;
+}
+.card-d{
+    display: inline-block;
+    height: 100%;
+   width: 100%;
+    padding-left: 50em;
+    background-color: #DE94A6;
+    
+}
+.card-e{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 50em;
+     background-color: #16987f;
+}
+.card-f{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 50em;
+     background-color: #16987f;
+}
+.card-g{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 50em;
+    background-color: #DE94A6;
+}
+
+.card-h{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 50em;
+    background-color: #DE94A6;
+}
+
+.card-i{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 50em;
+    background-color: #DE94A6;
+}
+
+.card-j{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 50em;
+    background-color: #DE94A6;
+}
+
+.card-k{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 50em;
+    background-color: #DE94A6;
+}
+
+
+/*tablet*/
+@media screen and(min-width:700px) {
+  body{
+    margin: 0;
+}
+
+img{
+    height: 60em;
+    margin: 0em;
+}
+header{
+    height: 100%;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 0em;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+.box::-webkit-scrollbar{
+    display: none;
+}
+.card-a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 10em;
+    background-color: olivedrab;
+}
+h2{
+font-size: 4em;
+font-family: input-serif-compressed, serif;
+font-weight: 700;
+font-style: normal;
+}
+.card-b{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    
+}
+.card-c{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: gold;
+}
+.card-d{
+    display: inline-block;
+    height: 100%;
+   width: 100%;
+    background-color: fuchsia;
+    
+}
+.card-e{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+     background-color: hotpink;
+}
+.card-f{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+     background-color: blueviolet;
+}
+.card-g{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+.card-h{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+.card-i{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.card-j{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: darkcyan;
+}
+
+.card-k{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+    
+    
+    
+/* DESKTOP */
+@media screen and(min-width: 1000px){
+body{
+    margin: 0;
+}
+}
+img{
+    height: 60em;
+    margin: 0em;
+}
+header{
+    height: 100%;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 0em;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+.box::-webkit-scrollbar{
+    display: none;
+}
+.card-a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-left: 10em;
+    background-color: black;
+}
+h2{
+font-size: 4em;
+font-family: input-serif-compressed, serif;
+font-weight: 700;
+font-style: normal;
+}
+.card-b{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #DE94A6;
+    
+}
+.card-c{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #16987f;
+}
+.card-d{
+    display: inline-block;
+    height: 100%;
+   width: 100%;
+    background-color: #DE94A6;
+    
+}
+.card-e{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+     background-color: #16987f;
+}
+.card-f{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+     background-color: #16987f;
+}
+.card-g{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #DE94A6;
+}
+
+.card-h{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #DE94A6;
+}
+
+.card-i{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #DE94A6;
+}
+
+.card-j{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #DE94A6;
+}
+
+.card-k{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #DE94A6;
+}

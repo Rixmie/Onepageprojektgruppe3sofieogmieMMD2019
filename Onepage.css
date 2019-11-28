@@ -1,9 +1,511 @@
 *{
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*mobile*/
+    @media screen and (min-width: 300px) {
+        img{
+            width: 100%;
+            height: 200px;
+        }
+        #overskriftogbilleder{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+#topbillede1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+#overskrift{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+#topbillede{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+    #topbillede{
+        height: 100px;
+    }
+    #topbillede1{
+        height: 100px;
+    }
+        #overskrift{
+            color: #DE94A6;
+            font-size: 17px;
+            font-family: input-serif, serif;
+            font-style: normal;
+            font-weight: 100; 
+        }
+body {
+  background-color: #16987f;
+    margin: 0;
+}
+    .ingredienser{
+        height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    }
+.ingredienser::-webkit-scrollbar{
+    display: none;
+        }
+img{
+    height: 300px;
+    width: 100%;
+        }
+        .card-1{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+            padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    
+    .card-2{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    
+    .card-3{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+    .card-4{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    
+    .card-5{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+    .card-6{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }    
+        li{
+            font-size: 15px;
+            color: #DE94A6;
+            font-family: input-serif-compressed, serif;
+            font-weight: 400;
+            font-style: normal;
+        }     
+        }
+        h2{
+            font-size: 15px;
+            color: #DE94A6;
+            font-family: input-serif-compressed, serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h3{
+            font-size: 10px;
+            color: #DE94A6;
+            font-family: input-serif-compressed, serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        p{
+            font-size: 10px;
+            color: #DE94A6;
+            font-family: input-serif-compressed, serif;
+            font-weight: 400;
+            font-style: normal;
+        }
 }
 
 body {
-  background-color: white;
+  background-color: #E0C280;
+  padding: 10px;
+}
+
+body{
+    margin: 0;
+}   
+.box{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.box::-webkit-scrollbar{
+    display: none;
+}
+.card-a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+
+}
+.card-b{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+    
+    
+}
+.card-c{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+    
+}
+.card-d{
+    display: inline-block;
+    height: 100%;
+   width: 100%;
+    background-color: #ffff;
+    
+    
+    
+}
+.card-e{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+     
+}
+.card-f{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+.card-g{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+   
+}
+
+<<<<<<< HEAD
+h2{
+    font-size: 35px;
+    color: #16987f;
+
+    font-family: input-serif, serif;
+font-style: normal;
+font-weight: 100;
+=======
+.card-h{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+
+.card-i{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+   background-color: #ffff;
+    
+}
+
+.card-j{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+>>>>>>> 69b4ac6e85298e2801e979d4c3d1150f7877736d
+
+.card-k{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+.servering {
+float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.servering2 {
+  background-color: #ffffff;
+  padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+/* tablet*/
+@media screen and (min-width: 600px) {
+#overskriftogbilleder{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+#topbillede1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+#overskrift{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+#topbillede{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+    #overskrift{
+    font-size: 25px;
+  word-break: break-all;
+    text-align: center;
+    color: #16987f;
+    font-family: input-serif-compressed, serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    .ingredienser{
+        height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    }
+
+    .card-1{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    }
+    
+    .card-2{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    }
+    
+    .card-3{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    }
+
+    .card-4{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    }
+    
+    .card-5{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    }
+
+    .card-6{
+        display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    }
+    p{
+        font-size: 12px;
+        color: #16987f;
+    }
+    h3{
+        color: #16987f;
+    }
+    li{
+        color: #16987f;
+    }
+    h2{
+    font-size: 20px;
+    color: #16987f;
+    font-family: input-serif-compressed, serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    }
+    #topbillede{
+        height: 15em;
+        width: 10em;
+       
+    }
+    #topbillede1{
+        height: 15em;
+        width: 10em;
+    }
+body {
+  background-color: #E0C280;
+  padding: 10px;
+}
+
+body{
+    margin: 0;
+}   
+.box{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+img{
+    height: 500px;
+    width: 100%;
+        }
+.box::-webkit-scrollbar{
+    display: none;
+}
+.card-a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+
+}
+.card-b{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+    
+    
+}
+.card-c{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+    
+}
+.card-d{
+    display: inline-block;
+    height: 100%;
+   width: 100%;
+    background-color: #ffff;
+    
+    
+    
+}
+.card-e{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+     
+}
+.card-f{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+.card-g{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+   
+}
+
+.card-h{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+
+.card-i{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+   background-color: #ffff;
+    
+}
+
+.card-j{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+
+.card-k{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+/*desktop*/
+@media screen and (min-width: 900px) {
+body {
+  background-color: #1e9f67;
   padding: 10px;
   font-family: input-serif, serif;
 font-weight: 100;
@@ -28,25 +530,18 @@ font-style: normal;
 }
 img{
     width: 100%;
+    height: 100%;
     
-}
-#mel{
-    height: 405px;
-}
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
 }
 
 #topbillede1{
-    height: 100%;
-    width: 80%;
+    height: 50%;
+    width: 100%;
     align-items: center;
 }
 #topbillede{
-    height: 100%;
-    width: 80%;
+    height: 50%;
+    width: 100%;
     align-items: center;
 }
 
@@ -54,125 +549,138 @@ img{
     font-size: 40px;
   word-break: break-all;
     text-align: center;
-    color: #DE93A7;
-   
-font-family: input-serif-compressed, serif;
-font-weight: 700;
-font-style: normal;
-    align-items: center;
-}
-
-h2{
-    font-size: 35px;
-    color: #16987f;
-
-    font-family: input-serif, serif;
-font-style: normal;
-font-weight: 100;
-
-    
-}
-}
-/* Add padding BETWEEN each column (if you want) */
-.row > .column {
-  padding-top: 0px;
-padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 700px) {
-  .column {
-    width: 100%;
-  }
-    img{
-        width: 100%;
-        
-    }
-#overskrift{
-    font-size: 25px;
-  word-break: break-all;
-    text-align: center;
-    color: #16987f;
-    font-family: input-serif-compressed, serif;
-font-weight: 700;
-font-style: normal;
-    }
-    #mel{
-        height: 100%;
-    }
-h2{
-    font-size: 30px;
-    color: #DE93A7;
-    
-    }
-    #topbillede{
-        height: 100%;
-        width: 80%;
-    }
-    #topbillede1{
-        height: 100%;
-         width: 80%;
-    }
-body {
-  background-color: #E0C280;
-  padding: 10px;
-}
-    
-    @media screen and (max-width: 400px) {
-  .column {
-    width: 100%;
-  }
-   
-#overskrift{
-    font-size: 14px;
-  word-break: break-all;
-    text-align: center;
-    color: #E0C280;
+    color: #DE94A6;
    font-family: input-serif-compressed, serif;
-font-weight: 700;
-font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
-    #topbillede{
-        height: 150px;
-    }
-    #topbillede1{
-        height: 150px;
-    }
 
-        #mel{
-            height: 100%;
-        }
-body {
-  background-color: #16987f;
+h2{
+    font-size: 25px;
+    color: #DE94A6;
+    font-family: input-serif-compressed, serif;
+    font-weight: 400;
+    font-style: normal;
 }
-        img{
-          width: 100%;   
-        }
-        h2{
-            font-size: 20px;
-            color: #DE94A6;
-            font-family: input-serif, serif;
-font-style: normal;
-font-weight: 100;
-        }
-
-        h3{
-            font-size: 15px;
-            font-family: input-serif, serif;
-font-style: normal;
-font-weight: 100;
-        }
-        p{
-            font-size: 15px;
-            font-family: input-serif, serif;
-font-style: normal;
-font-weight: 100;
-        }
-       
+    h3{
+        font-size: 20px;
+    color: #DE94A6;
+    font-family: input-serif-compressed, serif;
+    font-weight: 400;
+    font-style: normal;
     }
+    li{
+        font-size: 15px;
+    color: #DE94A6;
+    font-family: input-serif-compressed, serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    p{
+        font-size: 20px;
+    color: #DE94A6;
+    font-family: input-serif-compressed, serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    .box{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.box::-webkit-scrollbar{
+    display: none;
+}
+.card-a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
     
+}
+
+}
+.card-b{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+    
+    
+}
+.card-c{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+    
+}
+.card-d{
+    display: inline-block;
+    height: 100%;
+   width: 100%;
+    background-color: #ffff;
+    
+    
+    
+}
+.card-e{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+     
+}
+.card-f{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+.card-g{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+   
+}
+
+.card-h{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+
+.card-i{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+   background-color: #ffff;
+    
+}
+
+.card-j{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+
+.card-k{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    
+}
+    }
